@@ -26,7 +26,6 @@ const themeSwitcher = (solar, prev, current) => {
   body.classList.replace(prev, current);
   localStorage.setItem('theme', current);
   localStorage.removeItem('solarize');
-  console.log('I have been clicked')
 }
 
 lightBtn.addEventListener('click', () => {

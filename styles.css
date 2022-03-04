@@ -13,6 +13,20 @@
 
 body {
     background-color: var(--bg);
+    color: var(--text);
+}
+
+.navbar {
+    background-color: var(--bg-nav);
+}
+
+.dropdown-menu {
+    background-color: var(--bg-dropdown);
+}
+
+.card-body {
+    background-color: var(--bg);
+    border: 1px solid var(--border-color);
 }
 
 .light {
@@ -30,7 +44,7 @@ body {
     --bg-nav: linear-gradient(to right, var(--gray5), var(--gray6));
     --bg-dropdown: var(--gray6);
     --text: var(--gray0);
-    --border-color: var(--purple);
+    --border-color: var(--blue);
     --bg-solar: var(--blue);
 }
 
